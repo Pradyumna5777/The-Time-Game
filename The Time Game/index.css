@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+background-image: url("https://images.pexels.com/photos/207924/pexels-photo-207924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  background-size: cover;
+
+}
+#panel {
+  width: 80%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  background: url("https://images.pexels.com/photos/262438/pexels-photo-262438.jpeg");
+  object-fit: contain;
+  background-size: cover;
+}
+#ptop {
+  padding: 0 30px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: #51525168;
+  border-radius: 10px;
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+.box {
+  color:beige;
+  font-weight: 600;
+  font-family: "Black Ops One", system-ui;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #9e9e9e4a;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+#pbtm {
+  width: 100%;
+  height: calc(100% - 100px);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.bubble{
+    width: 50px;
+    height: 50px;
+    font-weight: 500;
+    background-color: #505150c3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#84cc16;
+    font-family: "Black Ops One", system-ui;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.bubble:hover{
+    background-color: #4ab64a69;
+    cursor: pointer;
+}
+#game-over{
+  font-family: "Tiny5", sans-serif;
+  font-size: 8vh;
+color:black;
+border-radius: 10px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+padding: 2vh 4vh;
+background-color: #6d6d6d55;
+}
+#ptop h2{
+  color:darkgray;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  font-size: 4vh;
+  background-color: #96949445;
+  padding: 1vh 2vh;
+  border-radius: 10px;
+  font-weight: 600;  
+  font-family: "Tiny5", sans-serif;
+
+}
